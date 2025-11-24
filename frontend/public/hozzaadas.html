@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Föld körüli pályán</title>
+    <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light d-none d-md-block">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarRealEstateAgency">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link "  href="index.html">Kezdőoldal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bolygok.html">Az égitestek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Új égitest feltöltése</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bolygotorles.html">Égitest törlése</a>
+                        </li>
+                      >
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h2 class="mb-4 text-center">Új égitest rögzítése</h2>
+        <div class="row">
+            <div class="offset-lg-3 offset-md-2 col-lg-6 col-md-8 col-12">
+                <div class="mb-3">
+                    <label for="tipus" class="form-label">Égitest típusa</label>
+                    <select class="form-select" id="tipus">
+                        <option value="0">Kérem válasszon</option>
+                        <option value="1">Föld típusú</option>
+                        <option value="2">Gázóriás</option>
+                        <option value="3">Jégóriás</option>
+                        <option value="4">Hibrid</option>
+                        <option value="5">Törpebolygó</option>
+                        <option value="6">Hughes-Fulford</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Az égitest neve:</label>
+                    <textarea class="form-control" id="name" rows="1"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="tomeg" class="form-label">Tömege:</label>
+                    <textarea class="form-control" id="tomeg" rows="1"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="sugar" class="form-label">Sugara az egyenlítőnél</label>
+                    <textarea class="form-control" id="sugar" rows="1" ></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="hold" class="form-label">Holdak száma</label>
+                    <textarea class="form-control" id="hold" rows="1" placeholder="0"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="naptav" class="form-label">Távolság a Naptól</label>
+                    <textarea class="form-control" id="naptav" rows="1" ></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="foldtav" class="form-label">Távolság a földtől</label>
+                    <textarea class="form-control" id="foldtav" rows="1" ></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="info" class="form-label">Főbb tudnivaló az égitestről</label>
+                    <textarea class="form-control" id="info" rows="3" ></textarea>
+                </div>
+               
+                <div class="mb-3">
+                    <label for="pictureUrl" class="form-label">Az égitestről készült fénykép linkje</label>
+                    <input type="url" class="form-control" id="pictureUrl" placeholder="https://foto.jpg">
+                </div>
+                <div class="mb-3 text-center">
+                    <button class="btn btn-secondary px-5">Feltöltés</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
