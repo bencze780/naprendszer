@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"urhajozas"},
+{"type":"table","name":"urhajos","database":"urhajozas","data":
+[
+{"id":"1","nev":"Stuart Roosa","orszag":"USA","nem":"F","szulev":"1933","urido":"T009:00:01","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/af\/Roosa_cropped.jpg\/1024px-Roosa_cropped.jpg"},
+{"id":"2","nev":"Gennady Padalka","orszag":"RUS","nem":"F","szulev":"1958","urido":"T878:11:29","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/82\/Padalka.jpg\/1024px-Padalka.jpg"},
+{"id":"3","nev":"Valery Korzun","orszag":"RUS","nem":"F","szulev":"1953","urido":"T381:15:41","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/cd\/Waleri_Grigorjewitsch_Korsun.jpg"},
+{"id":"4","nev":"Scott Carpenter","orszag":"USA","nem":"F","szulev":"1925","urido":"T000:04:56","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/44\/Carpenter_suiting_up.jpg\/1024px-Carpenter_suiting_up.jpg"},
+{"id":"5","nev":"Vladislav Volkov","orszag":"URS","nem":"F","szulev":"1935","urido":"T028:20:02","url":"https:\/\/www.april12.eu\/russcosm\/photo\/volkov43.jpg"},
+{"id":"6","nev":"Umberto Guidoni","orszag":"ITA","nem":"F","szulev":"1954","urido":"T027:15:11","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3e\/Leonid_Kadenyuk.jpg\/1024px-Leonid_Kadenyuk.jpg"}
+]
+}
+]
